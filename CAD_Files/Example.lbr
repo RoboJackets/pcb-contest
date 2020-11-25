@@ -226,7 +226,9 @@
 <connect gate="G$1" pin="COMMON" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="563-1555-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
