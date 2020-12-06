@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mm" altunit="mm"/>
@@ -185,6 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyY2EyMWFk" projecturn="a.cGVyc29uYWw6dWUyY2EyMWFkIzIwMjAxMTI1MzU2ODEzNTgx" f3durn="urn:adsk.wipprod:dm.lineage:dyqZrbbKTy2XcHXfwjEQZg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="17bb6422-26a5-4a22-a8fc-66dc1e53293f" lastsyncedrevisionid="17bb6422-26a5-4a22-a8fc-66dc1e53293f" lastboardhashguid="af3778a2-1b63-800d-478d-2496b3e21cb4" lastpushedtime="2020-11-26T02:07:45Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="86" y2="0" width="0" layer="20"/>
 <wire x1="86" y1="0" x2="86" y2="54" width="0" layer="20"/>
@@ -5007,10 +5008,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="POPULARITY" value="37" x="38.676" y="40.425" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="38.676" y="40.425" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SO08" package3d_urn="urn:adsk.eagle:package:6240673/1" value="LM555D" x="17.221" y="17.624" smashed="yes" rot="R90">
+<element name="IC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SO08" package3d_urn="urn:adsk.eagle:package:6240673/1" override_package3d_urn="urn:adsk.eagle:package:25000912/2" override_package_urn="urn:adsk.eagle:footprint:6240027/1" value="LM555D" x="17.221" y="17.624" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.616" y="21.773" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="Q1" library="RoboJackets-Discrete" package="SOT-23-3" value="BSS806N" x="8.37" y="19.36" smashed="yes" rot="R90">
+<element name="Q1" library="RoboJackets-Discrete" package="SOT-23-3" override_package3d_urn="urn:adsk.eagle:package:25000917/2" override_package_urn="urn:adsk.eagle:footprint:25000918/1" value="BSS806N" x="8.37" y="19.36" smashed="yes" rot="R90">
 <attribute name="DKPN" value="BSS806NH6327XTSA1CT-ND" x="31.23" y="46.03" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.37" y="17.36" size="1" layer="25" rot="R180"/>
 </element>
@@ -5018,7 +5019,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="15.28" y="4.285" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="26.71" y="4.285" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J1" library="RoboJackets-Connectors" package="PJ-037A" value="" x="4.562" y="4.54" smashed="yes">
+<element name="J1" library="RoboJackets-Connectors" package="PJ-037A" override_package3d_urn="urn:adsk.eagle:package:25000921/2" override_package_urn="urn:adsk.eagle:footprint:25000922/1" value="" x="4.562" y="4.54" smashed="yes">
 <attribute name="DKPN" value="CP-037A-ND" x="4.562" y="4.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-2.438" y="9.54" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="-2.438" y="-0.46" size="1" layer="27" font="vector" align="top-left"/>
@@ -5029,7 +5030,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VALUE" x="10.775" y="10.65" size="1" layer="27" font="vector" rot="R90" align="top-left"/>
 </element>
 <element name="U$2" library="RoboJackets-Aesthetics" package="ROBOBUZZ_1.4X" value="" x="43.06" y="2.36" smashed="yes"/>
-<element name="J2" library="RoboJackets-Connectors" package="UX60-MB-5S8" value="UX60-MB-5S8" x="-1.18" y="34.78" smashed="yes">
+<element name="J2" library="RoboJackets-Connectors" package="UX60-MB-5S8" override_package3d_urn="urn:adsk.eagle:package:25000186/2" override_package_urn="urn:adsk.eagle:footprint:25000187/1" value="UX60-MB-5S8" x="-1.18" y="34.78" smashed="yes">
 <attribute name="DKPN" value="H2960CT-ND" x="-1.18" y="34.78" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.69" y="37.68" size="1" layer="25" font="vector"/>
 </element>
@@ -5038,7 +5039,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="POPULARITY" value="37" x="13.255" y="11.66" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="13.255" y="11.66" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW1" library="Example" package="MFS101D-6-Z" value="MFS101D-6-Z" x="5.11" y="17.2" smashed="yes" rot="R90">
+<element name="SW1" library="Example" package="MFS101D-6-Z" override_package3d_urn="urn:adsk.eagle:package:25000897/2" override_package_urn="urn:adsk.eagle:footprint:25000899/1" value="MFS101D-6-Z" x="5.11" y="17.2" smashed="yes" rot="R90">
 <attribute name="DKPN" value="563-1555-ND" x="5.11" y="17.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K" x="14.69" y="29.28" smashed="yes" rot="R90">
@@ -5070,7 +5071,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="20.2944" y1="15.719" x2="20.3134" y2="15.7" width="0.2" layer="1"/>
 <wire x1="20.3134" y1="15.7" x2="22.2" y2="15.7" width="0.2" layer="1"/>
 <via x="22.2" y="15.7" extent="1-16" drill="0.35"/>
-<polygon width="0.4" layer="16">
+<polygon width="0.4" layer="16" thermals="no">
 <vertex x="0" y="0"/>
 <vertex x="0" y="40"/>
 <vertex x="25" y="40"/>
@@ -5221,6 +5222,11 @@ of those online libraries will not be understood (or retained)
 with this version.
 </note>
 <note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+<note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
@@ -5229,6 +5235,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

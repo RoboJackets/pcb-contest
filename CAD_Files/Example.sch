@@ -12246,7 +12246,7 @@ USB - mini B USB 2.0 Receptacle Connector 5 Position, Right Angle
 </class>
 </classes>
 <parts>
-<part name="IC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:6240673/1" technology="LM"/>
+<part name="IC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:6240673/1" override_package3d_urn="urn:adsk.eagle:package:25000912/2" override_package_urn="urn:adsk.eagle:footprint:6240027/1" technology="LM"/>
 <part name="FRAME2" library="RoboJackets-Frames" deviceset="FRAME_A_L" device="">
 <attribute name="REVISION" value=""/>
 <attribute name="SCH_DESC" value=""/>
@@ -12261,19 +12261,19 @@ USB - mini B USB 2.0 Receptacle Connector 5 Position, Right Angle
 <part name="SUPPLY3" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".01uF"/>
-<part name="Q1" library="RoboJackets-Discrete" deviceset="BSS806N" device=""/>
+<part name="Q1" library="RoboJackets-Discrete" deviceset="BSS806N" device="" override_package3d_urn="urn:adsk.eagle:package:25000917/2" override_package_urn="urn:adsk.eagle:footprint:25000918/1"/>
 <part name="SUPPLY6" library="RoboJackets-Supplies" deviceset="GND" device=""/>
-<part name="J1" library="RoboJackets-Connectors" deviceset="PJ-037A*" device=""/>
+<part name="J1" library="RoboJackets-Connectors" deviceset="PJ-037A*" device="" override_package3d_urn="urn:adsk.eagle:package:25000921/2" override_package_urn="urn:adsk.eagle:footprint:25000922/1"/>
 <part name="JP1" library="RoboJackets-Connectors" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SUPPLY7" library="RoboJackets-Supplies" deviceset="+9V" device=""/>
 <part name="SUPPLY8" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="RoboJackets-Supplies" deviceset="+9V" device=""/>
 <part name="SUPPLY10" library="RoboJackets-Supplies" deviceset="GND" device=""/>
-<part name="J2" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8"/>
+<part name="J2" library="RoboJackets-Connectors" deviceset="UX60*-MB-5S?" device="8" override_package3d_urn="urn:adsk.eagle:package:25000186/2" override_package_urn="urn:adsk.eagle:footprint:25000187/1"/>
 <part name="SUPPLY11" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="SUPPLY12" library="RoboJackets-Supplies" deviceset="GND" device=""/>
-<part name="SW1" library="Example" deviceset="MFS101D-6-Z" device=""/>
+<part name="SW1" library="Example" deviceset="MFS101D-6-Z" device="" override_package3d_urn="urn:adsk.eagle:package:25000897/2" override_package_urn="urn:adsk.eagle:footprint:25000899/1"/>
 <part name="SUPPLY13" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="Q2" library="Example" deviceset="SSM3J356R" device="" package3d_urn="urn:adsk.eagle:package:24993154/1"/>
@@ -12597,6 +12597,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
