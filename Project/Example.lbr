@@ -202,18 +202,6 @@
 <wire x1="-4" y1="7" x2="-1" y2="7" width="0.127" layer="27"/>
 <wire x1="-1" y1="7" x2="-1" y2="4" width="0.127" layer="27"/>
 </package>
-<package name="SOT-23-3">
-<smd name="3" x="0" y="1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="1" x="-0.95" y="-1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="0.95" y="-1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
-<wire x1="1.45" y1="0.8" x2="1.45" y2="-0.8" width="0.2" layer="21"/>
-<wire x1="-1.45" y1="-0.8" x2="-1.45" y2="0.8" width="0.2" layer="21"/>
-<wire x1="-1.45" y1="0.8" x2="-0.55" y2="0.8" width="0.2" layer="21"/>
-<wire x1="0.45" y1="-0.8" x2="-0.45" y2="-0.8" width="0.2" layer="21"/>
-<wire x1="0.55" y1="0.8" x2="1.45" y2="0.8" width="0.2" layer="21"/>
-<text x="-2" y="-1" size="1" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.016" size="1" layer="27" font="vector" rot="R90">&gt;VALUE</text>
-</package>
 <package name="SOT95P240X80-3N" urn="urn:adsk.eagle:footprint:24993163/1">
 <description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.80 X 0.80 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.80 X 0.80 mm&lt;/p&gt;</description>

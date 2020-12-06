@@ -12248,9 +12248,9 @@ USB - mini B USB 2.0 Receptacle Connector 5 Position, Right Angle
 <parts>
 <part name="IC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="*555" device="D" package3d_urn="urn:adsk.eagle:package:6240673/1" override_package3d_urn="urn:adsk.eagle:package:25000912/2" override_package_urn="urn:adsk.eagle:footprint:6240027/1" technology="LM"/>
 <part name="FRAME2" library="RoboJackets-Frames" deviceset="FRAME_A_L" device="">
-<attribute name="REVISION" value=""/>
-<attribute name="SCH_DESC" value=""/>
-<attribute name="TEAM" value=""/>
+<attribute name="REVISION" value="1.0"/>
+<attribute name="SCH_DESC" value="555 Timer Motor Driver Circuit"/>
+<attribute name="TEAM" value="PCB Design Contest"/>
 </part>
 <part name="TM1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="TRIMPOT" device="3386" package3d_urn="urn:adsk.eagle:package:6240934/1"/>
 <part name="SUPPLY4" library="RoboJackets-Supplies" deviceset="GND" device=""/>
