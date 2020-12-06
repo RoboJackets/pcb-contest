@@ -309,7 +309,9 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:24993154/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="SSM3K339RLFCT-ND " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
