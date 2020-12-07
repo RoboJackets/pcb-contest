@@ -12256,7 +12256,7 @@ USB - mini B USB 2.0 Receptacle Connector 5 Position, Right Angle
 <part name="SUPPLY4" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="RoboJackets-Supplies" deviceset="+9V" device=""/>
 <part name="SUPPLY2" library="RoboJackets-Supplies" deviceset="+9V" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value=".1uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.01uF"/>
 <part name="SUPPLY3" library="RoboJackets-Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="RoboJackets-Supplies" deviceset="GND" device=""/>
@@ -12282,36 +12282,36 @@ USB - mini B USB 2.0 Receptacle Connector 5 Position, Right Angle
 <sheet>
 <description>555 Timer Motor Driver Circuit</description>
 <plain>
-<text x="22.86" y="25.4" size="1.778" layer="97">Trimpot is wired to external 10k Potentiometer.
+<text x="25.4" y="25.4" size="1.778" layer="97">Trimpot is wired to external 10K Potentiometer.
 
-At full CW rotation (R1=10k, R2=0), Duty cycle = 50%
+At full CW rotation (R1=10K, R2=0), Duty cycle = 50%
 and frequency = 307KHz.
 
-At full CCW rotation (R1=0, R2=10k), Duty cycle = 100%
+At full CCW rotation (R1=0, R2=10K), Duty cycle = 100%
 and frequency = 153KHz.
 
 Both are within operating voltage of motor and outside
 of audio range. </text>
-<text x="180.34" y="172.72" size="1.778" layer="97">Motor externally wired to this plug</text>
-<text x="180.34" y="134.62" size="1.778" layer="97">Low Side Switch using 2.3A rated
-transistor and 250mA max current
+<text x="182.88" y="172.72" size="1.778" layer="97">Motor externally wired to this plug</text>
+<text x="182.88" y="134.62" size="1.778" layer="97">Low side switch using 2.3A rated
+transistor and 450mA max current
 motor</text>
 <text x="25.4" y="139.7" size="1.778" layer="97">USB or Barrel Jack power (5-9V)</text>
-<wire x1="15.24" y1="127" x2="134.62" y2="127" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="134.62" y1="127" x2="134.62" y2="203.2" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="134.62" y1="203.2" x2="15.24" y2="203.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="15.24" y1="127" x2="137.16" y2="127" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="137.16" y1="127" x2="137.16" y2="203.2" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="137.16" y1="203.2" x2="15.24" y2="203.2" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="15.24" y1="203.2" x2="15.24" y2="127" width="0.1524" layer="97" style="shortdash"/>
 <text x="25.4" y="195.58" size="1.778" layer="97">Power Input</text>
 <wire x1="15.24" y1="119.38" x2="15.24" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="15.24" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="96.52" y1="17.78" x2="96.52" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="96.52" y1="119.38" x2="15.24" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="15.24" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="99.06" y1="17.78" x2="99.06" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="99.06" y1="119.38" x2="15.24" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <text x="25.4" y="111.76" size="1.778" layer="97">555 Timer</text>
-<wire x1="142.24" y1="127" x2="223.52" y2="127" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="223.52" y1="127" x2="223.52" y2="195.58" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="223.52" y1="195.58" x2="142.24" y2="195.58" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="142.24" y1="195.58" x2="142.24" y2="127" width="0.1524" layer="97" style="shortdash"/>
-<text x="152.4" y="187.96" size="1.778" layer="97">Motor Switching</text>
+<wire x1="144.78" y1="127" x2="228.6" y2="127" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="228.6" y1="127" x2="228.6" y2="195.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="228.6" y1="195.58" x2="144.78" y2="195.58" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="144.78" y1="195.58" x2="144.78" y2="127" width="0.1524" layer="97" style="shortdash"/>
+<text x="154.94" y="187.96" size="1.778" layer="97">Motor Switching</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="48.26" y="78.74" smashed="yes">
@@ -12358,26 +12358,26 @@ motor</text>
 <attribute name="NAME" x="28.956" y="71.755" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.956" y="66.929" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="170.18" y="149.86" smashed="yes">
-<attribute name="VALUE" x="172.72" y="147.32" size="1.778" layer="96"/>
-<attribute name="NAME" x="172.72" y="152.4" size="1.778" layer="95"/>
+<instance part="Q2" gate="G$1" x="172.72" y="149.86" smashed="yes">
+<attribute name="VALUE" x="175.26" y="147.32" size="1.778" layer="96"/>
+<attribute name="NAME" x="175.26" y="152.4" size="1.778" layer="95"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="170.18" y="137.16" smashed="yes">
-<attribute name="VALUE" x="167.64" y="134.62" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="G$1" x="172.72" y="137.16" smashed="yes">
+<attribute name="VALUE" x="170.18" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="35.56" y="149.86" smashed="yes">
 <attribute name="NAME" x="25.4" y="157.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.4" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="180.34" y="165.1" smashed="yes">
-<attribute name="NAME" x="173.99" y="170.815" size="1.778" layer="95"/>
-<attribute name="VALUE" x="173.99" y="160.02" size="1.778" layer="96"/>
+<instance part="JP1" gate="G$1" x="182.88" y="165.1" smashed="yes">
+<attribute name="NAME" x="176.53" y="170.815" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="+9V" x="170.18" y="177.8" smashed="yes">
-<attribute name="VALUE" x="168.275" y="180.975" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="+9V" x="172.72" y="177.8" smashed="yes">
+<attribute name="VALUE" x="170.815" y="180.975" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="86.36" y="139.7" smashed="yes">
-<attribute name="VALUE" x="83.82" y="137.16" size="1.778" layer="96"/>
+<instance part="SUPPLY8" gate="G$1" x="86.36" y="137.16" smashed="yes">
+<attribute name="VALUE" x="83.82" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY9" gate="+9V" x="124.46" y="160.02" smashed="yes">
 <attribute name="VALUE" x="122.555" y="163.195" size="1.778" layer="96"/>
@@ -12437,13 +12437,13 @@ motor</text>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="GND"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="170.18" y1="139.7" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="139.7" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="GND"/>
-<wire x1="86.36" y1="147.32" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="147.32" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="GND"/>
@@ -12490,8 +12490,8 @@ motor</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="167.64" x2="170.18" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="167.64" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="167.64" x2="172.72" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="167.64" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="+9V" pin="+9V"/>
 </segment>
 <segment>
@@ -12530,8 +12530,8 @@ motor</text>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="165.1" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
-<label x="160.02" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="167.64" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
+<label x="162.56" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12555,8 +12555,8 @@ motor</text>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="177.8" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="165.1" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="165.1" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">

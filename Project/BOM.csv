@@ -1,14 +1,17 @@
-Qty,Value,Device,Parts,Description,DKPN,Price
-1,,PINHD-1X2,JP1,PIN HEADER,609-3507-ND, $0.12 
-1,,PJ-037A,J1,Barrel Jack 2.1x5.5mm,CP-037A-ND, $0.58 
-1,,TRIMPOT3386,TM1,Placeholder for externally wired 10k Pot,987-1662-ND, $0.79 
-2,.01uF,C-USC0603,"C2, C3","CAPACITOR, American symbol",478-0603YD103KAT2ACT-ND, $0.10 
-1,.1uF,C-USC0603,C1,"CAPACITOR, American symbol",1276-CL10B104KB8NNNLCT-ND, $0.10 
-1,10K,R-US_R0603,R1,"RESISTOR, American symbol",RNCP0603FTD10K0CT-ND, $0.10 
-1,10uF,C-USC0603,C4,"CAPACITOR, American symbol",1276-6769-1-ND, $0.27 
-1,BSS806N,BSS806N,Q1,N-Channel MOSFET,BSS806NH6327XTSA1CT-ND, $0.46 
-1,LM555D,LM555D,IC1,555 TIMER,296-6501-1-ND, $0.36 
-1,MFS101D-6-Z,MFS101D-6-Z,SW1,SPDT Slide Switch,563-1555-ND, $1.09 
-1,SSM3J356R,SSM3J356R,Q2,P-Channel 60V 2A (Ta) 1W (Ta) Surface Mount SOT-23F,SSM3K339RLFCT-ND, $0.43 
-1,UX60-MB-5S8,UX60-MB-5S8,J2,Mini USB Port,H2960CT-ND, $0.93 
-,,,,,Total:, $5.33 
+Qty,Part RefDes,Description,Vendor,Vendor Part Number,Unit Price,Unit Total
+1,JP1,2 Pin Header,DigiKey,609-3507-ND,$0.12,$0.12
+1,J1,Barrel Jack 2.1x5.5mm,DigiKey,CP-037A-ND,$0.58,$0.58
+1,TM1,Externally wired 10K Pot,DigiKey,987-1662-ND,$0.79,$0.79
+2,"C2, C3","0.01uF capacitor, 0603",DigiKey,478-0603YD103KAT2ACT-ND,$0.10,$0.20
+1,C1,"0.1uF capacitor, 0603",DigiKey,1276-CL10B104KB8NNNLCT-ND,$0.10,$0.10
+1,R1,"10K resistor, 0603",DigiKey,RNCP0603FTD10K0CT-ND,$0.10,$0.10
+1,C4,"10uF capacitor, 0603",DigiKey,1276-6769-1-ND,$0.27,$0.27
+1,Q1,SOT23 N-Channel MOSFET,DigiKey,BSS806NH6327XTSA1CT-ND,$0.46,$0.46
+1,IC1,LM555 Timer,DigiKey,296-6501-1-ND,$0.36,$0.36
+1,SW1,SPDT Slide Switch,DigiKey,563-1555-ND,$1.09,$1.09
+1,Q2,SOT23 P-Channel MOSFET,DigiKey,SSM3K339RLFCT-ND,$0.43,$0.43
+1,J2,Mini USB Port,DigiKey,H2960CT-ND,$0.93,$0.93
+1,,Wall Barrel Jack Power Adapter,Amazon,B074BRR5YN,$8.98,$8.98
+1,,Motor,Banana Robotics,BR010032,$2.49,$2.49
+1,,PCB,JLCPCB,,$0.40,$0.40
+,,,,,Total:,$17.30
