@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mm" altunit="mm"/>
@@ -185,15 +185,14 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyY2EyMWFk" projecturn="a.cGVyc29uYWw6dWUyY2EyMWFkIzIwMjAxMTI1MzU2ODEzNTgx" f3durn="urn:adsk.wipprod:dm.lineage:dyqZrbbKTy2XcHXfwjEQZg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="17bb6422-26a5-4a22-a8fc-66dc1e53293f" lastsyncedrevisionid="17bb6422-26a5-4a22-a8fc-66dc1e53293f" lastboardhashguid="af3778a2-1b63-800d-478d-2496b3e21cb4" lastpushedtime="2020-11-26T02:07:45Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyY2EyMWFk" projecturn="a.cGVyc29uYWw6dWUyY2EyMWFkIzIwMjAxMTI1MzU2ODEzNTgx" f3durn="urn:adsk.wipprod:dm.lineage:dyqZrbbKTy2XcHXfwjEQZg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="a49c2013-b2bb-4e79-a137-7427588e61d0" lastsyncedrevisionid="a49c2013-b2bb-4e79-a137-7427588e61d0" lastboardhashguid="008ef885-9b37-9500-54d2-2c200ce5196b" lastpushedtime="2020-12-07T04:32:30Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="86" y2="0" width="0" layer="20"/>
 <wire x1="86" y1="0" x2="86" y2="54" width="0" layer="20"/>
 <wire x1="86" y1="54" x2="0" y2="54" width="0" layer="20"/>
 <wire x1="0" y1="54" x2="0" y2="0" width="0" layer="20"/>
 <text x="2.13" y="28.48" size="2.5" layer="21" rot="SR270">ON</text>
-<text x="33.12" y="0.96" size="1.778" layer="21" rot="R90">RoboJackets PCB Contest
-Team Number
+<text x="30.66" y="0.88" size="1.778" layer="21" rot="R90">RoboJackets PCB Contest
 555 Timer PWM Motor Driver</text>
 <dimension x1="0" y1="54" x2="0" y2="0" x3="-13.1" y3="27" textsize="1.778" layer="51" dtype="vertical"/>
 <dimension x1="0" y1="54" x2="86" y2="54" x3="43" y3="63.84" textsize="1.778" layer="51" dtype="horizontal"/>
