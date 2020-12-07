@@ -35,7 +35,7 @@ All files for submission should be on GitHub in your own reposistory. A link to 
 ## Required Files
 - EAGLE Schematic (.sch) file
 - EAGLE Board (.brd) file
-- EAGLE Library (.lbr) for any custom parts not included in the [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)
+- EAGLE Library (.lbr) file for any custom parts not included in the [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)
 - Bill of Materials (for one unit including the PCB and other componenets) as a CSV file with the following columns:
 	- Quantity
 	- Part RefDes
@@ -55,7 +55,7 @@ All files for submission should be on GitHub in your own reposistory. A link to 
 	- This can be formatted with screenshots of parts of your schematic/board with explanation.
 	- This is also the section to include any design choices or calculations you made while designing your PCB.
 	- If necessary to understand your design, explain any major firmware features that would be necessary here.
-	- Finally, be sure to mention the layer count and PCB manufacturer in this file.
+	- Finally, be sure to mention the layer count and PCB manufacturer here.
 
 
 ## Judging
@@ -142,6 +142,7 @@ Remember that you cannot consult or share designs with judges from your division
 ### GitHub
 
 ### RoboJackets EAGLE Resources
+- [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)
 - [EAGLE Video Tutorial Series](https://www.youtube.com/watch?list=PL1R5gSylLha2iQ7e9mwiXJDY2RXoM8HxK&v=2VtJ9Y4NA2E)
 - [Electrical Training Fall 2020](https://www.youtube.com/watch?list=PL1R5gSylLha1r1cdYd3TEnzhL_FxiWyOD&v=gtxdOOxpT5U)
 - [Electrical Training GitHub](https://github.com/RoboJackets/electrical-training)
@@ -159,4 +160,8 @@ Remember that you cannot consult or share designs with judges from your division
 - [Sparkfun Blog](https://www.sparkfun.com/news)
 
 ## FAQ
-This section will be updated throughout as common questions arise. The question and answer will be noted here for future use.
+This section will be updated throughout as common questions arise.
+
+- Can we have multiple of the same PCB being assembled and connected together as part of our submission?
+	- No, the end product should be a single PCB operating with whatever it needs to operate.
+	-
