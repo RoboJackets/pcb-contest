@@ -18,8 +18,8 @@ Our goal is to create as few technical restrictions as possible. However, to kee
 - Cost of design must be **less than $50**. This includes the individual pre-tax cost of one PCB + the cost of components for one PCB. The BOM must include everything necessary for your design to operate (i.e. AC wall power adapters) with the exception of small wire guauge (greater than 18 AWG) wire.
 - Options for manufacturers are **JLCPCB or OshPark**. Please specify your desired manufacturer and layer count in your documentation as explained (below)[#submission-materials]. The circuit board must pass the design rules check (DRC) given by the specified manufacturer (the DRCs for both OshPark and JLC are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)). OshPark costs more than JLC so keep that in mind when considering overall cost.
 
-## Anonymity
-In order to preserve the integrity of the competition, please do not put personally identifying information on your PCB design. The judges have agreed to leave or mute the #electrical-ama Slack channel. Please do not share your designs with your division’s judges until all designs have been judged. At the time of submission, a Google form will be used for submitting links to your GitHub repo as explained in (below)(#submission-materials).
+### Anonymity
+In order to preserve the integrity of the competition, please do not put personally identifying information on your PCB design. The judges have agreed to leave or mute the #electrical-ama Slack channel. Please do not share your designs with your division’s judges until all designs have been judged. At the time of submission, a Google form will be used for submitting links to your GitHub repo as explained in (Submission Materials)(#submission-materials).
 
 ### Design Help
 If you wish to consult with someone on your design, please use the #electrical-ama Slack channel. This will be the place for all technical questions during the competition.
@@ -29,10 +29,12 @@ Please direct any competition logistics or other non-technical questions to **Va
 
 ## Submission Materials
 
-All files for submission should be on GitHub in your own reposistory. Details on GitHub setup is in [Getting Started](#getting-started).
+## GitHub Repository
+All files for submission should be on GitHub in your own reposistory. A link to this reposistory will be submitted at the end of contest. Details on GitHub setup is in [Getting Started](#getting-started).
 
-The following submission materials are required:
-- EAGLE Schematic (.sch) and Board (.brd) files
+## Required Files
+- EAGLE Schematic (.sch) file
+- EAGLE Board (.brd) file
 - EAGLE Library (.lbr) for any custom parts not included in the [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)
 - Bill of Materials (for one unit including the PCB and other componenets) as a CSV file with the following columns:
 	- Quantity
@@ -64,7 +66,7 @@ The Advanced category will be judged by RoboJackets alumni Jonathan Jones, Ryo O
 The Beginner category will be judged by current RoboJackets members Asha Bhandarkar, Arthur Siqueira, and Joseph Spall.
 
 ### Criteria
-Submissions for both categories will be judged based on the following criteria:
+Submissions for both categories will be judged based on the following criteria (out of 50 points):
 
 #### Creativity - 14 Points
 The judges will look at all materials to determine whether the designer put in significant effort to create something interesting and cool.
@@ -73,7 +75,7 @@ The judges will look at all materials to determine whether the designer put in s
 The judges will look at the PCB files and explanation to determine whether most of the design would work and that the circuits designed achieve their intended goal.
 
 #### Design Efficiency - 9 Points
-This will be judged based on your bill of materials. Judges will evaluate whether your choice of components and PCB specifications is efficient, i.e. do all components and circuits meet the desired function, without exceeding it unnecessarily (in cost, complexity, or otherwise)?
+This will be judged based on your bill of materials. Judges will evaluate whether your choice of components and PCB specifications is efficient, i.e. do all components and circuits meet the desired function, without exceeding it unnecessarily (in cost, complexity, or otherwise).
 
 #### Documentation - 9 Points
 The judges will look at the screenshots and markdown summary to determine if they are accurate, sufficient, and understandable. The markdown summary can be supplemented with additional renders, 3D CAD, calculations, diagrams, simulations, etc. If firmware was a critical part of your design, judges will look at those aspects as well. Strong documentation which helps judges to better understand your design can improve scores in the other categories.
@@ -93,7 +95,7 @@ RoboJackets will manufacture the PCB and buy related components for the winner(s
 ### EAGLE
 To install EAGLE, go to the [AutoDesk education software website](https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1), create an account, and install the education version of EAGLE.
 
-If you are new to EAGLE and PCB design, we encourage you to look at the various [RoboJackets EAGLE resources](#robojackets-eagle-resources).
+If you are new to EAGLE and PCB design, we encourage you to look at the various [RoboJackets EAGLE resources](#robojackets-eagle-resources) before you continue further.
 
 ### Design Brainstorming
 If you are having trouble coming up with a design idea, a good resource is [Adafruit](https://www.adafruit.com) or [Sparkfun](https://www.sparkfun.com). Both have tutorials for various projects for inspiration. In addition, all of their designs are open source. Sometimes it is also useful to think of your design at a component level, so we have listed some components that you might consider using. By no means is the list below comprehensive, and there’s not a requirement for including any of these in your design.
@@ -119,15 +121,15 @@ If you are having trouble coming up with a design idea, a good resource is [Adaf
 	- 555 Timer
 	- Audio Amplifiers
 - Microcontrollers
-	- Breakout Boards (Watch out for cost)
+	- Breakout Boards
 		- Arduino (Uno, Nano, etc.)
 		- mBed
 		- STM32 Nucleo
 		- Teensy
 	- STM32
 	- Atmel/Microchip
-		- AVR/Arduino: ATMega328, ATMega32u4, ATTiny
-		- ARM: ATSamd
+		- AVR (ATMega328, ATMega32u4, ATTiny)
+		- ARM (ATSamd)
 
 ## Resources
 
@@ -153,8 +155,8 @@ Remember that you cannot consult or share designs with judges from your division
 ### Design Resources
 - [Electronics Stack Exchange](https://electronics.stackexchange.com)
 - [Hackaday](https://hackaday.com)
-- [Adafruit](https://blog.adafruit.com)
-- [Sparkfun](https://www.sparkfun.com/news)
+- [Adafruit Blog](https://blog.adafruit.com)
+- [Sparkfun Blog](https://www.sparkfun.com/news)
 
 ## FAQ
 This section will be updated throughout as common questions arise. The question and answer will be noted here for future use.
