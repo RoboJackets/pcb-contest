@@ -11,5 +11,5 @@ Quantity,Part RefDes,Description,Vendor,Vendor Part Number,Unit Price,Unit Total
 1,J2,Mini USB Port,DigiKey,H2960CT-ND,$0.93,$0.93
 1,,Wall Barrel Jack Power Adapter,Amazon,B074BRR5YN,$8.98,$8.98
 1,,Motor,Banana Robotics,BR010032,$2.49,$2.49
-1,,PCB,JLCPCB,,$0.40,$0.40
-,,,,,Total:,$16.74
+1,,PCB,JLCPCB,,$3.60,$3.60
+,,,,,Total:,$19.94

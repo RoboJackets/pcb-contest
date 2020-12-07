@@ -1,7 +1,7 @@
 # PCB Design Competition Guide
 
 ## Objective
-The goal of the PCB Design Competition is to design a Buzzcard sized printed circuit board (PCB) using [Autodesk EAGLE](https://www.autodesk.com/products/eagle/overview) to do anything you want! The competition has two categories, **beginner** and **advanced**. The beginner category is for 1st and 2nd years and those with limited electronics experience. The advanced category is for 3rd years and older and those with significant electronics experience.
+The goal of the PCB Design Competition is to design a Buzzcard sized printed circuit board (PCB) using [Autodesk EAGLE](https://www.autodesk.com/products/eagle/overview) to do anything you want! The competition has two categories: **Beginner** and **Advanced**. The Beginner category is for 1st and 2nd years and those with limited electronics experience. The Advanced category is for 3rd years and older and those with significant electronics experience.
 
 
 ## Logistics
@@ -14,9 +14,13 @@ The competition will run from **December 14th 2020 to January 14th 2021**! While
 
 ### Technical Contraints
 Our goal is to create as few technical restrictions as possible. However, to keep the competition fair and to ensure that the designs are within RoboJackets manufacturing capabilities, all submissions must follow these rules:
-- PCB size must not exceed **85.6 mm by 54 mm** (standard credit card size). The board size and shape can be freely edited given that a bounding box around the PCB does not exceed the aforementioned size.
-- Cost of design must be **less than $50**. This includes the individual pre-tax cost of one PCB + the cost of components for one PCB. The BOM must include everything necessary for your design to operate (i.e. AC wall power adapters) with the exception of small wire guauge (greater than 18 AWG) wire.
-- Options for manufacturers are **JLCPCB or OshPark**. Please specify your desired manufacturer and layer count in your documentation as explained (below)[#submission-materials]. The circuit board must pass the design rules check (DRC) given by the specified manufacturer (the DRCs for both OshPark and JLC are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)). OshPark costs more than JLC so keep that in mind when considering overall cost.
+- PCB size must not exceed **85.6 mm by 54 mm** (standard credit card size).
+	- The board size and shape can be freely edited given that a bounding box around the PCB does not exceed this size.
+- Cost of design must be **less than $50**. This includes the individual pre-tax cost of one PCB + the cost of components for one PCB.
+	- The BOM must include everything necessary for your design to operate (i.e. AC wall power adapters) with the exception of small guauge (greater than 18 AWG) wire.
+- Options for manufacturers are **JLCPCB or OshPark**.
+	- Please specify manufacturing ifnromation as explained in (Submission Materials)[#submission-materials].
+	- The circuit board must pass the design rules check (DRC) for the specified manufacturer (the DRCs for both OshPark and JLC are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)).
 
 ### Anonymity
 In order to preserve the integrity of the competition, please do not put personally identifying information on your PCB design. The judges have agreed to leave or mute the #electrical-ama Slack channel. Please do not share your designs with your division’s judges until all designs have been judged.
@@ -56,7 +60,12 @@ All files for submission should be on GitHub in your own reposistory. A link to 
 	- This can be formatted with screenshots of parts of your schematic/board with explanation.
 	- This is also the section to include any design choices or calculations you made while designing your PCB.
 	- If necessary to understand your design, explain any major firmware features that would be necessary here.
-	- Finally, be sure to mention the layer count and PCB manufacturer here.
+	- Finally, be sure to mention any manufacturing information here, including:
+		- Layer count
+		- PCB manufacturer
+		- Soldermask color
+		- PCB type (regular, flex, etc)
+		- Surface finish (HASL, ENIG, etc.)
 
 
 ## Judging
@@ -95,7 +104,7 @@ RoboJackets will manufacture the PCB and buy related components for the winner(s
 To use Git to version your project, you can either install the graphical tool [GitHub Desktop](https://desktop.github.com) or use the command line tool [git](https://git-scm.com/downloads). To get started with this contest, you will create your own copy of this reposistory to work with. Start by navigating back to the top of this [reposistory](https://github.com/RoboJackets/pcb-contest) and click the green **Use this template** button. Then give your repository a name and make it **public**. You are now ready to start working!
 
 ### EAGLE
-To install EAGLE, go to the [AutoDesk education software website](https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1), create an account, and install the education version of EAGLE.
+To install EAGLE, go to the [Autodesk education software website](https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1), create an account, and install the education version of EAGLE.
 
 If you are new to EAGLE and PCB design, we encourage you to look at the various [RoboJackets EAGLE resources](#robojackets-eagle-resources) before you continue further.
 
@@ -139,6 +148,7 @@ If you are having trouble coming up with a design idea, a good resource is [Adaf
 - Organizer: Varun Madabushi
 - Beginner Judges: Asha Bhandarkar, Arthur Siqueira, and Joseph Spall
 - Advanced Judges: Jonathan Jones, Ryo Osawa, and Matthew White
+
 Remember that you cannot consult or share designs with judges from your division.
 
 ### Git and GitHub
@@ -173,3 +183,5 @@ This section will be updated throughout as common questions arise.
 
 - Can we have multiple of the same PCB being assembled and connected together as part of our submission?
 	- The end product can be made of multiple PCBs assembled together, but all PCBs must be able to panelize within the originally specified area (**85.6 mm by 54 mm**).
+- Can we have flex PCBs?
+	- Yes, as long as it is indicated in the doucmentation and the appropriate PCB manufactuer is chosen.
