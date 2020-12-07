@@ -1,7 +1,7 @@
 # PCB Design Competition Guide
 
 ## Objective
-The goal of the PCB Design Competition is to design a Buzzcard sized printed circuit board (PCB) using EAGLE to do anything you want! The competition has two categories, **beginner** and **advanced**. The beginner category is for 1st and 2nd years and those with limited electronics experience. The advanced category is for 3rd years and older and those with significant electronics experience.
+The goal of the PCB Design Competition is to design a Buzzcard sized printed circuit board (PCB) using [Autodesk EAGLE](https://www.autodesk.com/products/eagle/overview) to do anything you want! The competition has two categories, **beginner** and **advanced**. The beginner category is for 1st and 2nd years and those with limited electronics experience. The advanced category is for 3rd years and older and those with significant electronics experience.
 
 
 ## Logistics
@@ -172,4 +172,4 @@ Remember that you cannot consult or share designs with judges from your division
 This section will be updated throughout as common questions arise.
 
 - Can we have multiple of the same PCB being assembled and connected together as part of our submission?
-	- No, the end product should be a single PCB operating with whatever it needs to operate.
+	- No, the end product should be a single PCB on its own.
