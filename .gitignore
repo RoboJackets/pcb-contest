@@ -163,6 +163,8 @@ tags
 # Persistent undo
 [._]*.un~
 
+# 3D Files
 STEP_Files/*
 
+# Excel Files
 *.xlsx
