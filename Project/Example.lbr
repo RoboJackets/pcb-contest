@@ -275,6 +275,7 @@
 </symbols>
 <devicesets>
 <deviceset name="MFS101D-6-Z" prefix="SW">
+<description>&lt;a href="https://www.nidec-copal-electronics.com/e/catalog/switch/mfs.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPDT" x="0" y="0"/>
 </gates>
