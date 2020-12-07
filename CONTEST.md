@@ -18,8 +18,8 @@ Our goal is to create as few technical restrictions as possible. However, to kee
 	- The board size and shape can be freely edited given that a bounding box around the PCB does not exceed this size.
 - Cost of design must be **less than $50**. This includes the individual pre-tax cost of one PCB + the cost of components for one PCB.
 	- The BOM must include everything necessary for your design to operate (i.e. AC wall power adapters) with the exception of small guauge (greater than 18 AWG) wire.
-- Options for manufacturers are **JLCPCB or OshPark**.
-	- Please specify manufacturing ifnromation as explained in (Submission Materials)[#submission-materials].
+- Options for manufacturers are **JLCPCB** or **OshPark**.
+	- Please specify manufacturing information as explained in (Submission Materials)[#submission-materials].
 	- The circuit board must pass the design rules check (DRC) for the specified manufacturer (the DRCs for both OshPark and JLC are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)).
 
 ### Anonymity
@@ -60,7 +60,7 @@ All files for submission should be on GitHub in your own reposistory. A link to 
 	- This can be formatted with screenshots of parts of your schematic/board with explanation.
 	- This is also the section to include any design choices or calculations you made while designing your PCB.
 	- If necessary to understand your design, explain any major firmware features that would be necessary here.
-	- Finally, be sure to mention any manufacturing information here, including:
+	- Finally, be sure to mention any important manufacturing information here, including but not limited to:
 		- Layer count
 		- PCB manufacturer
 		- Soldermask color
@@ -182,6 +182,6 @@ Remember that you cannot consult or share designs with judges from your division
 This section will be updated throughout as common questions arise.
 
 - Can we have multiple of the same PCB being assembled and connected together as part of our submission?
-	- The end product can be made of multiple PCBs assembled together, but all PCBs must be able to panelize within the originally specified area (**85.6 mm by 54 mm**).
+	- The end product can be made of multiple PCBs assembled together, but all PCBs must be able to panelize within the originally specified area (85.6 mm by 54 mm).
 - Can we have flex PCBs?
 	- Yes, as long as it is indicated in the doucmentation and the appropriate PCB manufactuer is chosen.

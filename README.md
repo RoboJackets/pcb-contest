@@ -8,4 +8,4 @@ This is the GitHub repository for the RoboJackets Winter 2020 PCB Competition an
 To participate, click the green **Use this template** button. Then give your repository a name and make it **public**. You are now ready to start working! Your submission link will be a link to this new repository you made.
 
 ## Example
-We have provided an example project in [Example](Example) showing a submission with all required parts for this contest. Feel free to use it as a template for the BOM and Documentation as a baseline.
+We have provided an example project in the [Example](Example) folder showing a submission with all required parts for this contest. Feel free to use it as a template for the BOM and Documentation as a baseline.
