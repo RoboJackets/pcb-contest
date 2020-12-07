@@ -19,7 +19,7 @@ Our goal is to create as few technical restrictions as possible. However, to kee
 - Options for manufacturers are **JLCPCB or OshPark**. Please specify your desired manufacturer and layer count in your documentation as explained (below)[#submission-materials]. The circuit board must pass the design rules check (DRC) given by the specified manufacturer (the DRCs for both OshPark and JLC are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)). OshPark costs more than JLC so keep that in mind when considering overall cost.
 
 ### Anonymity
-In order to preserve the integrity of the competition, please do not put personally identifying information on your PCB design. The judges have agreed to leave or mute the #electrical-ama Slack channel. Please do not share your designs with your division’s judges until all designs have been judged. At the time of submission, a Google form will be used for submitting links to your GitHub repo as explained in (Submission Materials)(#submission-materials).
+In order to preserve the integrity of the competition, please do not put personally identifying information on your PCB design. The judges have agreed to leave or mute the #electrical-ama Slack channel. Please do not share your designs with your division’s judges until all designs have been judged.
 
 ### Design Help
 If you wish to consult with someone on your design, please use the #electrical-ama Slack channel. This will be the place for all technical questions during the competition.
@@ -30,7 +30,7 @@ Please direct any competition logistics or other non-technical questions to **Va
 ## Submission Materials
 
 ## GitHub Repository
-All files for submission should be on GitHub in your own reposistory. A link to this reposistory will be submitted at the end of contest. Details on GitHub setup is in [Getting Started](#getting-started).
+All files for submission should be on GitHub in your own reposistory. A link to this reposistory will be submitted at the end of contest using a Google form. Details on GitHub setup is in [Getting Started](#getting-started).
 
 ## Required Files
 - EAGLE Schematic (.sch) file
