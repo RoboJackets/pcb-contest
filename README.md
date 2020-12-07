@@ -124,18 +124,18 @@ Remember that you cannot consult or share designs with judges from your division
 ### Github
 
 ### RoboJackets EAGLE Resources
-[EAGLE Tutorial Series](https://www.youtube.com/watch?list=PL1R5gSylLha2iQ7e9mwiXJDY2RXoM8HxK&v=2VtJ9Y4NA2E)
-[Electrical Training Fall 2020](https://www.youtube.com/watch?list=PL1R5gSylLha1r1cdYd3TEnzhL_FxiWyOD&v=gtxdOOxpT5U)
-[Electrical Training GitHub](https://github.com/RoboJackets/electrical-training)
+- [EAGLE Tutorial Series](https://www.youtube.com/watch?list=PL1R5gSylLha2iQ7e9mwiXJDY2RXoM8HxK&v=2VtJ9Y4NA2E)
+- [Electrical Training Fall 2020](https://www.youtube.com/watch?list=PL1R5gSylLha1r1cdYd3TEnzhL_FxiWyOD&v=gtxdOOxpT5U)
+- [Electrical Training GitHub](https://github.com/RoboJackets/electrical-training)
 
 ### Other EAGLE Resources
-[EAGLE Layers Explained](https://www.autodesk.com/products/eagle/blog/every-layer-explained-autodesk-eagle/)
+- [EAGLE Layers Explained](https://www.autodesk.com/products/eagle/blog/every-layer-explained-autodesk-eagle/)
 
 ### Design Resources
-[Electronics Stack Exchange](https://electronics.stackexchange.com)
-[Hackaday](https://hackaday.com)
-[Adafruit](https://blog.adafruit.com)
-[Sparkfun](https://www.sparkfun.com/news)
+- [Electronics Stack Exchange](https://electronics.stackexchange.com)
+- [Hackaday](https://hackaday.com)
+- [Adafruit](https://blog.adafruit.com)
+- [Sparkfun](https://www.sparkfun.com/news)
 
 ## FAQ
 This section will be updated throughout as common questions arise. The question and answer will be noted here for future use.
