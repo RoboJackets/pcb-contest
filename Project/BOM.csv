@@ -1,4 +1,4 @@
-Qty,Part RefDes,Description,Vendor,Vendor Part Number,Unit Price,Unit Total
+Quantity,Part RefDes,Description,Vendor,Vendor Part Number,Unit Price,Unit Total
 1,JP1,2 Pin Header,DigiKey,609-3507-ND,$0.12,$0.12
 1,J1,Barrel Jack 2.1x5.5mm,DigiKey,CP-037A-ND,$0.58,$0.58
 1,TM1,Externally wired 10K Pot,DigiKey,987-1662-ND,$0.79,$0.79
