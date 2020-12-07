@@ -25,14 +25,14 @@ In order to preserve the integrity of the competition, please do not put persona
 If you wish to consult with someone on your design, please use the #electrical-ama Slack channel. This will be the place for all technical questions during the competition.
 
 ### Questions
-Please direct any competition logistics or other non-technical questions to **Varun Madabushi** on Slack. The [FAQ](#faq) below will be updated with clarifying information throughout the competition. Please check it regularly.
+Please direct any competition logistics or other non-technical questions to the competition organizer, **Varun Madabushi** on Slack. The [FAQ](#faq) below will be updated with clarifying information throughout the competition. Please check it regularly.
 
 ## Submission Materials
 
-## GitHub Repository
+### GitHub Repository
 All files for submission should be on GitHub in your own reposistory. A link to this reposistory will be submitted at the end of contest using a Google form. Details on GitHub setup is in [Getting Started](#getting-started).
 
-## Required Files
+### Required Files
 - EAGLE Schematic (.sch) file
 - EAGLE Board (.brd) file
 - EAGLE Library (.lbr) file for any custom parts not included in the [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)
@@ -172,4 +172,4 @@ Remember that you cannot consult or share designs with judges from your division
 This section will be updated throughout as common questions arise.
 
 - Can we have multiple of the same PCB being assembled and connected together as part of our submission?
-	- No, the end product should be a single PCB on its own.
+	- The end product can be made of multiple PCBs assembled together, but all PCBs must be able to panelize within the originally specified area (54 x 85.6mm).

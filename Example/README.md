@@ -16,6 +16,10 @@ The direction and rotation speed are controlled using a externally wired trimpot
 
 The motor is low side switched using a standard N-Channel MOSFET.
 
+## Firmware
+
+This board does not have any programmable components so no firmware is required.
+
 ## Images
 
 Schematic:
