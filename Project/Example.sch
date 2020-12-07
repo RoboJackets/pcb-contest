@@ -12311,7 +12311,7 @@ motor</text>
 <wire x1="228.6" y1="127" x2="228.6" y2="195.58" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="228.6" y1="195.58" x2="144.78" y2="195.58" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="144.78" y1="195.58" x2="144.78" y2="127" width="0.1524" layer="97" style="shortdash"/>
-<text x="154.94" y="187.96" size="1.778" layer="97">Motor Switching</text>
+<text x="154.94" y="187.96" size="1.778" layer="97">Motor</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="48.26" y="78.74" smashed="yes">
