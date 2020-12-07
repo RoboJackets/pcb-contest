@@ -20,21 +20,21 @@ Our goal is to create as few technical restrictions as possible. However, to kee
 	- The BOM must include everything necessary for your design to operate (i.e. AC wall power adapters) with the exception of small guauge (greater than 18 AWG) wire.
 - Options for manufacturers are **JLCPCB** or **OshPark**.
 	- Please specify manufacturing-related information as explained in [Submission Materials](#submission-materials).
-	- The circuit board must pass the design rules check (DRC) for the specified manufacturer (the DRCs for both OshPark and JLC are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)).
+	- The circuit board must pass the design rules check (DRC) for the specified manufacturer (the DRC files for both OshPark and JLCPCB are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)).
 
 ### Anonymity
-In order to preserve the integrity of the competition, please do not put personally identifying information on your PCB design. The judges have agreed to leave or mute the #electrical-ama Slack channel. Please do not share your designs with your division’s judges until all designs have been judged.
+In order to preserve the integrity of the competition, please do not put any personally identifying information on your PCB design. The judges have agreed to leave or mute the #electrical-ama Slack channel. Please do not share your designs with your division’s judges until all designs have been judged.
 
 ### Design Help
 If you wish to consult with someone on your design, please use the #electrical-ama Slack channel. This will be the place for all technical questions during the competition.
 
 ### Questions
-Please direct any competition logistics or other non-technical questions to the competition organizer, **Varun Madabushi** on Slack. The [FAQ](#faq) below will be updated with clarifying information throughout the competition. Please check it regularly.
+Please direct any competition logistics or other non-technical questions to the competition organizer, **Varun Madabushi** on Slack. The [FAQ](#faq) below will be updated with clarifying information throughout the competition.
 
 ## Submission Materials
 
 ### GitHub Repository
-All files for submission should be on GitHub in your own reposistory. A link to this reposistory will be submitted at the end of contest using a Google form. Details on GitHub setup is in [Getting Started](#getting-started).
+All files for submission should be on GitHub in your own reposistory. A link to this reposistory will be submitted at the end of contest using a Google form. Details on the GitHub setup is in [Getting Started](#getting-started).
 
 ### Required Files
 - EAGLE Schematic (.sch) file
@@ -130,7 +130,7 @@ If you are having trouble coming up with a design idea, a good resource is [Adaf
 - Useful ICs
 	- Voltage Regulators
 	- 555 Timer
-	- Audio Amplifiers
+	- Class D Audio Amplifiers
 - Microcontrollers
 	- Breakout Boards
 		- Arduino (Uno, Nano, etc.)
