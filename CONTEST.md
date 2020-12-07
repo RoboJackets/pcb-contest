@@ -92,7 +92,7 @@ RoboJackets will manufacture the PCB and buy related components for the winner(s
 ## Getting Started
 
 ### GitHub
-To use Git to version your project, you can either install the graphical tool [GitHub Desktop](https://desktop.github.com) or use the command line tool [git](https://git-scm.com/downloads). To get started with this contest, you will create your own copy of this reposistory to work with. Start by navigating back to the top of this [reposistory](https://github.com/RoboJackets/pcb-contest) and click the green **Use this template** button. Then give your repository a name and make it **public**, and you are ready to start working.
+To use Git to version your project, you can either install the graphical tool [GitHub Desktop](https://desktop.github.com) or use the command line tool [git](https://git-scm.com/downloads). To get started with this contest, you will create your own copy of this reposistory to work with. Start by navigating back to the top of this [reposistory](https://github.com/RoboJackets/pcb-contest) and click the green **Use this template** button. Then give your repository a name and make it **public**. You are now ready to start working!
 
 ### EAGLE
 To install EAGLE, go to the [AutoDesk education software website](https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1), create an account, and install the education version of EAGLE.
