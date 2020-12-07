@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple board to spin an external motor using a 555 timer while being  cheap ($17.30 per the [BOM](BOM.csv)). The board is designed to be manufactured using **JLCPCB** and is a 2 layer board.
+This is a simple board to spin an external motor using a 555 timer while being  cheap ($16.74 per the [BOM](BOM.csv)). The board is designed to be manufactured using **JLCPCB** and is a 2 layer board.
 
 ## Power Input
 
