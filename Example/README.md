@@ -6,7 +6,7 @@ This is a simple board to spin an external motor using a 555 timer while being  
 
 ## Power Input
 
-It features automatic input power switching between 5V USB and 9V barrel jack input. The power is switched between inputs using a P-Channel MOSFET prior to the main power switch.
+It features input power switching between 5V USB and 9V barrel jack input using the main power switch.
 
 ## 555 Timer
 

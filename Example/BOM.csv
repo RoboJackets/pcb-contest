@@ -7,7 +7,7 @@ Quantity,Part RefDes,Description,Vendor,Vendor Part Number,Unit Price,Unit Total
 1,C4,"10uF capacitor, 0603",DigiKey,1276-6769-1-ND,$0.27,$0.27
 1,IC1,LM555 Timer,DigiKey,296-6501-1-ND,$0.36,$0.36
 1,SW1,SPDT Slide Switch,DigiKey,563-1555-ND,$1.09,$1.09
-1,Q2,SOT23 P-Channel MOSFET,DigiKey,SSM3K339RLFCT-ND,$0.43,$0.43
+1,Q2,SOT23 N-Channel MOSFET,DigiKey,SSM3K339RLFCT-ND,$0.43,$0.43
 1,J2,Mini USB Port,DigiKey,H2960CT-ND,$0.93,$0.93
 1,,Wall Barrel Jack Power Adapter,Amazon,B074BRR5YN,$8.98,$8.98
 1,,Motor,Banana Robotics,BR010032,$2.49,$2.49

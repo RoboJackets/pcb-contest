@@ -14,7 +14,7 @@ The competition will run from **December 14th 2020 to January 14th 2021**! While
 
 ### Technical Contraints
 Our goal is to create as few technical restrictions as possible. However, to keep the competition fair and to ensure that the designs are within RoboJackets manufacturing capabilities, all submissions must follow these rules:
-- PCB size must not exceed **85.6 by 54 mm** (standard credit card size). The board size and shape can be freely edited given that a bounding box around the PCB does not exceed the aforementioned size.
+- PCB size must not exceed **85.6 mm by 54 mm** (standard credit card size). The board size and shape can be freely edited given that a bounding box around the PCB does not exceed the aforementioned size.
 - Cost of design must be **less than $50**. This includes the individual pre-tax cost of one PCB + the cost of components for one PCB. The BOM must include everything necessary for your design to operate (i.e. AC wall power adapters) with the exception of small wire guauge (greater than 18 AWG) wire.
 - Options for manufacturers are **JLCPCB or OshPark**. Please specify your desired manufacturer and layer count in your documentation as explained (below)[#submission-materials]. The circuit board must pass the design rules check (DRC) given by the specified manufacturer (the DRCs for both OshPark and JLC are in [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)). OshPark costs more than JLC so keep that in mind when considering overall cost.
 
@@ -152,12 +152,12 @@ Remember that you cannot consult or share designs with judges from your division
 
 ### RoboJackets EAGLE Resources
 - [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)
+- [EAGLE Style Guide](https://wiki.robojackets.org/EAGLE_Style_Guide)
 - [EAGLE Video Tutorial Series](https://www.youtube.com/watch?list=PL1R5gSylLha2iQ7e9mwiXJDY2RXoM8HxK&v=2VtJ9Y4NA2E)
 - [Electrical Training Fall 2020](https://www.youtube.com/watch?list=PL1R5gSylLha1r1cdYd3TEnzhL_FxiWyOD&v=gtxdOOxpT5U)
 - [Electrical Training GitHub](https://github.com/RoboJackets/electrical-training)
 - [EAGLE Cheat Sheet](https://github.com/RoboJackets/electrical-training/blob/master/references/eagle_cheat_sheet/eagle_cheat_sheet.pdf)
 - [EAGLE Guide](https://github.com/RoboJackets/electrical-training/blob/master/references/eagle_training_guide/eagle_guide.pdf)
-- [EAGLE Style Guide](https://wiki.robojackets.org/EAGLE_Style_Guide)
 
 ### Other EAGLE Resources
 - [EAGLE Layers Explained](https://www.autodesk.com/products/eagle/blog/every-layer-explained-autodesk-eagle/)
@@ -172,4 +172,4 @@ Remember that you cannot consult or share designs with judges from your division
 This section will be updated throughout as common questions arise.
 
 - Can we have multiple of the same PCB being assembled and connected together as part of our submission?
-	- The end product can be made of multiple PCBs assembled together, but all PCBs must be able to panelize within the originally specified area (54 x 85.6mm).
+	- The end product can be made of multiple PCBs assembled together, but all PCBs must be able to panelize within the originally specified area (**85.6 mm by 54 mm**).
