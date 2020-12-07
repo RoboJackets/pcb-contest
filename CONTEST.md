@@ -51,6 +51,7 @@ All files for submission should be on GitHub in your own reposistory. A link to 
 	- While not required, 3D renders are also appreciated. This is a feature within EAGLE that uses Fusion 360 to incorporate 3D models for parts.
 	- If you have questions, feel free to reach out on the #electrical-ama Slack channel for an explanation of this process.
 - Documentation as a README.md
+	- This file should be a [Markdown](https://www.markdownguide.org/getting-started/) file so that it is easy to view formatted online.
 	- The explanation should include any explanations for any significant circuits in your design.
 	- This can be formatted with screenshots of parts of your schematic/board with explanation.
 	- This is also the section to include any design choices or calculations you made while designing your PCB.
@@ -91,6 +92,7 @@ RoboJackets will manufacture the PCB and buy related components for the winner(s
 ## Getting Started
 
 ### GitHub
+To use Git to version your project, you can either install the graphical tool [GitHub Desktop](https://desktop.github.com) or use the command line tool [git](https://git-scm.com/downloads). To get started with this contest, you will create your own copy of this reposistory to work with. Start by navigating back to the top of this [reposistory](https://github.com/RoboJackets/pcb-contest) and click the green **Use this template** button. Then give your repository a name and make it **public**, and you are ready to start working.
 
 ### EAGLE
 To install EAGLE, go to the [AutoDesk education software website](https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1), create an account, and install the education version of EAGLE.
@@ -139,7 +141,14 @@ If you are having trouble coming up with a design idea, a good resource is [Adaf
 - Advanced Judges: Jonathan Jones, Ryo Osawa, and Matthew White
 Remember that you cannot consult or share designs with judges from your division.
 
-### GitHub
+### Git and GitHub
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+- [GitHub Tutorial](https://guides.github.com/activities/hello-world/)
+
+### Markdown
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)
 
 ### RoboJackets EAGLE Resources
 - [RoboJackets Standard Library](https://github.com/RoboJackets/eagle-libraries)
@@ -164,4 +173,3 @@ This section will be updated throughout as common questions arise.
 
 - Can we have multiple of the same PCB being assembled and connected together as part of our submission?
 	- No, the end product should be a single PCB operating with whatever it needs to operate.
-	-
